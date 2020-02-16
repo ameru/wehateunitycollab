@@ -4,9 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DoctorOffice.unity
+    guid: e370002468d4c46448132c9f02ff3745
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4904caf71267cab49b8b1bfe156df011,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: de8640cb9c21e424ca24d634b6310456,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d4e702a534645dd4c860fdbab086a81f,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f0e8df47f9da41644bcd305d94f2cf3f,
       type: 2}
