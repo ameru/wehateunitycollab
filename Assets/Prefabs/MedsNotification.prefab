@@ -453,7 +453,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 7426495460771268272}
-    characterCount: 6
+    characterCount: 7
     spriteCount: 0
     spaceCount: 0
     wordCount: 1
@@ -487,13 +487,14 @@ GameObject:
   - component: {fileID: 7426495460999235828}
   - component: {fileID: 7426495460999235830}
   - component: {fileID: 7426495460999235829}
+  - component: {fileID: -4462786044028942497}
   m_Layer: 5
   m_Name: MedsNotification
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7426495460999235828
 RectTransform:
   m_ObjectHideFlags: 0
@@ -552,6 +553,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 4
+--- !u!114 &-4462786044028942497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426495460999235827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aaaaf512280dc4478b4957f7d8ac3f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7426495461832331031
 GameObject:
   m_ObjectHideFlags: 0
